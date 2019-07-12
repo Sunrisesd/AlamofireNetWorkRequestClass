@@ -1,6 +1,6 @@
 Pod::Spec.new do |s| 
   s.name         = "AlamofireNetWorkRequest"			#SDK名称
-  s.version      = "1.0.0"                        		#版本号
+  s.version      = "1.0.1"                        		#版本号
   s.homepage     = "https://github.com/Sunrisesd"  		#工程主页地址
   s.summary      = "基于Alamofire网络请求类"  			#项目的简单描述
   s.license  	 = "MIT"  					#协议类型
