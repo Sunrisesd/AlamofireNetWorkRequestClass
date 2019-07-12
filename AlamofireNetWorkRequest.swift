@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import SwiftyJSON
+import Alamofire
 
 /// 基于Alamofire的二次封装
 class AlamofireNetWorkRequest: NSObject {
