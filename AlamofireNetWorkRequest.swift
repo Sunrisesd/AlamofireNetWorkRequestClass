@@ -11,9 +11,9 @@ import SwiftyJSON
 import Alamofire
 
 /// 基于Alamofire的二次封装
-class AlamofireNetWorkRequest: NSObject {
+public class AlamofireNetWorkRequest: NSObject {
 
-    static let shareInstance : AlamofireNetWorkRequest = {
+    public static let shareInstance : AlamofireNetWorkRequest = {
         
         let share = AlamofireNetWorkRequest()
         
@@ -27,7 +27,7 @@ class AlamofireNetWorkRequest: NSObject {
     ///   - urlStr: 请求路径
     ///   - parameters: 请求参数
     ///   - requestBlock: 请求返回结果(json数据, 请求返回状态)
-    func NetWorkJsonRequest(method:HTTPMethod,urlStr:String,parameters:NSMutableDictionary, requestBlock : @escaping (_ :JSON, _ :Bool) -> ()){
+    public func NetWorkJsonRequest(method:HTTPMethod,urlStr:String,parameters:NSMutableDictionary, requestBlock : @escaping (_ :JSON, _ :Bool) -> ()){
         
         let headers = NSMutableDictionary.init()
         
