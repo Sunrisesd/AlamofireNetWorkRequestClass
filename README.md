@@ -18,13 +18,13 @@ platform :ios, '8.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-pod 'AlamofireNetWorkRequestClass'
+pod 'AlamofireNetWorkRequest'
 end
 ```
 ## 用法
 
 ```swift
-import AlamofireNetWorkRequestClass
+import AlamofireNetWorkRequest
 
 class MyViewController: UIViewController {
 
